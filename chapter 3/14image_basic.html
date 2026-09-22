@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>이미지 삽입하기</h2>
+    <img src="Penguins.jpg" alt="펭귄" width="300">
+    <img src="Nothing" alt="이미지 없음" width="300">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjD52NzC6g5JE1rIAydWp8Aa7R2bM2AkK_b0aRGCpFn0Rfxfu9BvWY-fWp&s=10"
+        alt="코알라">
+
+    <h2>음악 삽입하기</h2>
+    <audio src="Kalimba.mp3" controls="controls"></audio>
+
+    <h2>웹 브라우저 제약이 없도록 음악 삽입</h2>
+    <audio controls="controls">
+        <source src="Kalimba.mp3" type="audio/mp3">
+        <source src="Kalimba.ogg" type="audio/ogg">
+    </audio>
+
+    <h2>동영상 삽입</h2>
+    <video controls="controls">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+    <h2>18동영상 불러오는 동안 다른 이미지 보여주기</h2>
+    <video controls="controls" poster="https://thumb.cjonstyle.net/unsafe/720x0/itemimage.cjonstyle.net/goods_images/20/494/2082776494L.jpg?t=20260413124217">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+</body>
+
+</html>
