@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GEUN 홈페이지</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: white;
+            padding: 30px;
+        }
+
+        #page-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        #main-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        #main-header h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        #main-header h2 {
+            color: #666;
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        #main-header hr,
+        .outer-menu-item hr {
+            display: none;
+        }
+
+        .outer-menu {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .outer-menu-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 6px;
+            background-color: #fafafa;
+        }
+
+        .outer-menu-item .menu-title {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            color: #0066cc;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 5px;
+        }
+
+        .inner-menu {
+            list-style: none;
+        }
+
+        .inner-menu li {
+            margin-bottom: 5px;
+        }
+
+        .inner-menu a {
+            color: #444;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            padding: 3px;
+        }
+
+        .inner-menu a:hover {
+            color: #0066cc;
+            background-color: #eef5ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <header id="main-header">
+            <hgroup>
+                <h1 class="master-title">GEUN 홈페이지</h1>
+                <hr>
+                <h2 class="master-description">프론트엔드개발기초 수업 모음</h2>
+                <hr>
+            </hgroup>
+        </header>
+        <nav id="main-navigation">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <span class="menu-title">Chapter 2</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="../chapter 2/1주차.html">1주차</a></li>
+                            <li class="inner-menu-item"><a
+                                    href="../chapter 2/2html_pagewithstyle.html">2html_pagewithstyle</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 2/3style.css">3style.css</a></li>
+                            <li class="inner-menu-item"><a
+                                    href="../chapter 2/4htmlpagewithlink.html">4htmlpagewithlink</a></li>
+                            <li class="inner-menu-item"><a
+                                    href="../chapter 2/5HTMLpagewithscript.html">5HTMLpagewithscript</a></li>
+                            <li class="inner-menu-item"><a
+                                    href="../chapter 2/7HTMLpagewithouterscript.html">7HTMLpagewithouterscript</a></li>
+                            <li class="inner-menu-item"><a
+                                    href="../chapter 2/8htmlpagewitherror.html">8htmlpagewitherror</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 2/OuterJavascript.js">OuterJavascript</a>
+                            </li>
+                            <li class="inner-menu-item"><a
+                                    href="../chapter 2/OuterJavaScript_error.js">OuterJavaScript_error</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <hr>
+                        <span class="menu-title">Chapter 3</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="../chapter 3/1Text_header.html">1Text_header</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 3/3Text_header.html">3Text_header</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 3/5Text_header.html">5Text_header</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 3/10nested_list.html">10nested_list</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 3/11table_basic.html">11table_basic</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 3/12table_cell.html">12table_cell</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 3/13table_span.html">13table_span</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 3/14image_basic.html">14image_basic</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <hr>
+                        <span class="menu-title">Chapter 4</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="../chapter 4/1form_basic.html">1form_basic</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 4/2note_formlabel.html">2note_formlabel</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 4/4form_selecbasic.html">4form_selecbasic</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 4/8note_textarea.html">8note_textarea</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 4/9space_block.html">9space_block</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 4/12space_semanticless.html">12space_semanticless</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 4/13space_semantic.html">13space_semantic</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <hr>
+                        <span class="menu-title">Chapter 5</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="../chapter 5/1selector_tagidclass.html">1selector_tagidclass</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 5/9attribute_basic.html">9attribute_basic</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 5/11desc_descendants.html">11desc_descendants</a></li>
+                            <li class="inner-menu-item"><a href="../chapter 5/14etc_action.html">14etc_action</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>
