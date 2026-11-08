@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>GEUN 홈페이지</title>
+
     <style>
         * {
             box-sizing: border-box;
@@ -45,11 +46,6 @@
             font-weight: normal;
         }
 
-        #main-header hr,
-        .outer-menu-item hr {
-            display: none;
-        }
-
         .outer-menu {
             list-style: none;
             display: grid;
@@ -64,7 +60,7 @@
             background-color: #ffffff;
         }
 
-        .outer-menu-item .menu-title {
+        .menu-title {
             display: block;
             font-size: 20px;
             font-weight: bold;
@@ -99,141 +95,142 @@
 </head>
 
 <body>
+
     <div id="page-wrapper">
 
         <header id="main-header">
             <hgroup>
-                <h1 class="master-title">GEUN 홈페이지</h1>
-                <hr>
-                <h2 class="master-description">프론트엔드개발기초 수업 모음</h2>
-                <hr>
+                <h1>GEUN 홈페이지</h1>
+                <h2>프론트엔드개발기초 수업 모음</h2>
             </hgroup>
         </header>
 
         <nav id="main-navigation">
-            <div class="pull-left">
-                <ul class="outer-menu">
 
-                    <li class="outer-menu-item">
-                        <span class="menu-title">Chapter 2</span>
-                        <ul class="inner-menu">
-                            <li><a href="../chapter 2/1주차.html">1주차</a></li>
-                            <li><a href="../chapter 2/2html_pagewithstyle.html">2html_pagewithstyle</a></li>
-                            <li><a href="../chapter 2/3style.css">3style.css</a></li>
-                            <li><a href="../chapter 2/4htmlpagewithlink.html">4htmlpagewithlink</a></li>
-                            <li><a href="../chapter 2/5HTMLpagewithscript.html">5HTMLpagewithscript</a></li>
-                            <li><a href="../chapter 2/7HTMLpagewithouterscript.html">7HTMLpagewithouterscript</a></li>
-                            <li><a href="../chapter 2/8htmlpagewitherror.html">8htmlpagewitherror</a></li>
-                            <li><a href="../chapter 2/OuterJavascript.js">OuterJavascript</a></li>
-                            <li><a href="../chapter 2/OuterJavaScript_error.js">OuterJavaScript_error</a></li>
-                        </ul>
-                    </li>
+            <ul class="outer-menu">
 
-                    <li class="outer-menu-item">
-                        <span class="menu-title">Chapter 3</span>
-                        <ul class="inner-menu">
-                            <li><a href="../chapter_3/1Text_header.html">1Text_header</a></li>
-                            <li><a href="../chapter_3/3Text_header.html">3Text_header</a></li>
-                            <li><a href="../chapter_3/5Text_header.html">5Text_header</a></li>
-                            <li><a href="../chapter_3/10nested_list.html">10nested_list</a></li>
-                            <li><a href="../chapter_3/11table_basic.html">11table_basic</a></li>
-                            <li><a href="../chapter_3/12table_cell.html">12table_cell</a></li>
-                            <li><a href="../chapter_3/13table_span.html">13table_span</a></li>
-                            <li><a href="../chapter_3/14image_basic.html">14image_basic</a></li>
-                        </ul>
-                    </li>
+                <li class="outer-menu-item">
+                    <span class="menu-title">Chapter 2</span>
+                    <ul class="inner-menu">
+                        <li><a href="../chapter 2/1주차.html">1주차</a></li>
+                        <li><a href="../chapter 2/2html_pagewithstyle.html">HTML Page with Style</a></li>
+                        <li><a href="../chapter 2/3style.css">Style CSS</a></li>
+                        <li><a href="../chapter 2/4htmlpagewithlink.html">HTML Page with Link</a></li>
+                        <li><a href="../chapter 2/5HTMLpagewithscript.html">HTML Page with Script</a></li>
+                        <li><a href="../chapter 2/7HTMLpagewithouterscript.html">HTML Page with Outer Script</a></li>
+                        <li><a href="../chapter 2/8htmlpagewitherror.html">HTML Page with Error</a></li>
+                        <li><a href="../chapter 2/OuterJavascript.js">Outer Javascript</a></li>
+                        <li><a href="../chapter 2/OuterJavaScript_error.js">Outer Javascript Error</a></li>
+                    </ul>
+                </li>
 
-                    <li class="outer-menu-item">
-                        <span class="menu-title">Chapter 4</span>
-                        <ul class="inner-menu">
-                            <li><a href="../chapter_4/1form_basic.html">1form_basic</a></li>
-                            <li><a href="../chapter_4/2note_formlabel.html">2note_formlabel</a></li>
-                            <li><a href="../chapter_4/4form_selecbasic.html">4form_selecbasic</a></li>
-                            <li><a href="../chapter_4/8note_textarea.html">8note_textarea</a></li>
-                            <li><a href="../chapter_4/9space_block.html">9space_block</a></li>
-                            <li><a href="../chapter_4/12space_semanticless.html">12space_semanticless</a></li>
-                            <li><a href="../chapter_4/13space_semantic.html">13space_semantic</a></li>
-                        </ul>
-                    </li>
+                <li class="outer-menu-item">
+                    <span class="menu-title">Chapter 3</span>
+                    <ul class="inner-menu">
+                        <li><a href="../chapter_3/1Text_header.html">1Text_header</a></li>
+                        <li><a href="../chapter_3/3Text_header.html">3Text_header</a></li>
+                        <li><a href="../chapter_3/5Text_header.html">5Text_header</a></li>
+                        <li><a href="../chapter_3/10nested_list.html">10nested_list</a></li>
+                        <li><a href="../chapter_3/11table_basic.html">11table_basic</a></li>
+                        <li><a href="../chapter_3/12table_cell.html">12table_cell</a></li>
+                        <li><a href="../chapter_3/13table_span.html">13table_span</a></li>
+                        <li><a href="../chapter_3/14image_basic.html">14image_basic</a></li>
+                    </ul>
+                </li>
 
-                    <!-- Chapter 5 -->
-                    <li class="outer-menu-item">
-                        <span class="menu-title">Chapter 5</span>
-                        <ul class="inner-menu">
-                            <li><a href="../chapter_5/1selector_tagidclass.html">1selector_tagidclass</a></li>
-                            <li><a href="../chapter_5/9attribute_basic.html">9attribute_basic</a></li>
-                            <li><a href="../chapter_5/11desc_descendants.html">11desc_descendants</a></li>
-                            <li><a href="../chapter_5/14etc_action.html">14etc_action</a></li>
-                            <li><a href="../chapter_5/16etc_structure.html">16etc_structure</a></li>
-                            <li><a href="../chapter_5/17etc_structureFlase.html">17etc_structureFlase</a></li>
-                            <li><a href="../chapter_5/19CSS3Unit_em.html">19CSS3Unit_em</a></li>
-                            <li><a href="../chapter_5/blog.html">blog</a></li>
-                        </ul>
-                    </li>
+                <li class="outer-menu-item">
+                    <span class="menu-title">Chapter 4</span>
+                    <ul class="inner-menu">
+                        <li><a href="../chapter_4/1form_basic.html">1form_basic</a></li>
+                        <li><a href="../chapter_4/2note_formlabel.html">2note_formlabel</a></li>
+                        <li><a href="../chapter_4/4form_selecbasic.html">4form_selecbasic</a></li>
+                        <li><a href="../chapter_4/8note_textarea.html">8note_textarea</a></li>
+                        <li><a href="../chapter_4/9space_block.html">9space_block</a></li>
+                        <li><a href="../chapter_4/12space_semanticless.html">12space_semanticless</a></li>
+                        <li><a href="../chapter_4/13space_semantic.html">13space_semantic</a></li>
+                    </ul>
+                </li>
 
-                    <!-- Chapter 6 -->
-                    <li class="outer-menu-item">
-                        <span class="menu-title">Chapter 6</span>
-                        <ul class="inner-menu">
-                            <li><a href="../chapter_6/1_box_widthHeight.html">1_box_widthHeight</a></li>
-                            <li><a href="../chapter_6/5border_basic.html">5border_basic</a></li>
-                            <li><a href="../chapter_6/8display_none.html">8display_none</a></li>
-                            <li><a href="../chapter_6/12display_inlineWithMargin.html">12display_inlineWithMargin</a>
-                            </li>
-                            <li><a
-                                    href="../chapter_6/13display_inline-blockWithhMargin.html">13display_inline-blockWithhMargin</a>
-                            </li>
-                            <li><a href="../chapter_6/14background_image.html">14background_image</a></li>
-                            <li><a href="../chapter_6/19background_repeatNone.html">19background_repeatNone</a></li>
-                            <li><a href="../chapter_6/24font_size.html">24font_size</a></li>
-                            <li><a href="../chapter_6/28font_styleWeight.html">28font_styleWeight</a></li>
-                            <li><a href="../chapter_6/34position_absolute.html">34position_absolute</a></li>
-                            <li><a href="../chapter_6/37position_fomulaBasic.html">37position_fomulaBasic</a></li>
-                            <li><a href="../chapter_6/43float_basic.html">43float_basic</a></li>
-                            <li><a href="../chapter_6/48shadow_textShadow.html">48shadow_textShadow</a></li>
-                        </ul>
-                    </li>
+                <!-- Chapter 5 -->
+                <li class="outer-menu-item">
+                    <span class="menu-title">Chapter 5</span>
+                    <ul class="inner-menu">
+                        <li><a href="../chapter_5/1selector_tagidclass.html">1selector_tagidclass</a></li>
+                        <li><a href="../chapter_5/9attribute_basic.html">9attribute_basic</a></li>
+                        <li><a href="../chapter_5/11desc_descendants.html">11desc_descendants</a></li>
+                        <li><a href="../chapter_5/14etc_action.html">14etc_action</a></li>
+                        <li><a href="../chapter_5/16etc_structure.html">16etc_structure</a></li>
+                        <li><a href="../chapter_5/17etc_structureFlase.html">17etc_structureFlase</a></li>
+                        <li><a href="../chapter_5/19CSS3Unit_em.html">19CSS3Unit_em</a></li>
+                    </ul>
+                </li>
 
-                    <li class="outer-menu-item">
-                        <span class="menu-title">Chapter 7</span>
-                        <ul class="inner-menu">
-                            <li><a href="../chapter_7/1floatWithOverflow1.html">1floatWithOverflow1</a></li>
-                            <li><a href="../chapter_7/2noteclear.html">2noteclear</a></li>
-                            <li><a href="../chapter_7/3marginWidth.html">3marginWidth</a></li>
-                            <li><a href="../chapter_7/4oneTrueLayout.html">4oneTrueLayout</a></li>
-                            <li><a href="../chapter_7/5note_flex.html">5note_flex</a></li>
-                            <li><a href="../chapter_7/6absolutePosition.html">6absolutePosition</a></li>
-                            <li><a href="../chapter_7/7absolutePosition_align.html">7absolutePosition_align</a></li>
-                            <li><a href="../chapter_7/8fixedBar.html">8fixedBar</a></li>
-                            <li><a href="../chapter_7/9ellipsis.html">9ellipsis</a></li>
-                        </ul>
-                    </li>
+                <li class="outer-menu-item">
+                    <span class="menu-title">Chapter 6</span>
+                    <ul class="inner-menu">
+                        <li><a href="../chapter_6/1_box_widthHeight.html">1_box_widthHeight</a></li>
+                        <li><a href="../chapter_6/5border_basic.html">5border_basic</a></li>
+                        <li><a href="../chapter_6/8display_none.html">8display_none</a></li>
+                        <li><a href="../chapter_6/12display_inlineWithMargin.html">12display_inlineWithMargin</a></li>
+                        <li><a href="../chapter_6/13display_inline-blockWithhMargin.html">13display_inline-blockWithhMargin</a></li>
+                        <li><a href="../chapter_6/14background_image.html">14background_image</a></li>
+                        <li><a href="../chapter_6/19background_repeatNone.html">19background_repeatNone</a></li>
+                        <li><a href="../chapter_6/24font_size.html">24font_size</a></li>
+                        <li><a href="../chapter_6/28font_styleWeight.html">28font_styleWeight</a></li>
+                        <li><a href="../chapter_6/34position_absolute.html">34position_absolute</a></li>
+                        <li><a href="../chapter_6/37position_fomulaBasic.html">37position_fomulaBasic</a></li>
+                        <li><a href="../chapter_6/43float_basic.html">43float_basic</a></li>
+                        <li><a href="../chapter_6/48shadow_textShadow.html">48shadow_textShadow</a></li>
+                    </ul>
+                </li>
 
-                    <li class="outer-menu-item">
-                        <span class="menu-title">Chapter 8</span>
-                        <ul class="inner-menu">
-                            <li><a href="../chapter_8/1without_meta.html">1without_meta</a></li>
-                            <li><a href="../chapter_8/2with_meta.html">2with_meta</a></li>
-                            <li><a href="../chapter_8/2_1note_meta.html">2_1note_meta</a></li>
-                            <li><a href="../chapter_8/3at_media_rule.html">3at_media_rule</a></li>
-                            <li><a href="../chapter_8/4media_attribute.html">4media_attribute</a></li>
-                            <li><a href="../chapter_8/7media_feature.html">7media_feature</a></li>
-                            <li><a href="../chapter_8/8orientation.html">8orientation</a></li>
-                            <li><a href="../chapter_8/9pattern1.html">9pattern1</a></li>
-                            <li><a href="../chapter_8/10pattern2.html">10pattern2</a></li>
-                            <li><a href="../chapter_8/11pattern3.html">11pattern3</a></li>
-                            <li><a href="../chapter_8/12pattern4.html">12pattern4</a></li>
-                            <li><a href="../chapter_8/blogcss.html">blogcss</a></li>
-                            <li><a href="../chapter_8/screen.css">screen.css</a></li>
-                            <li><a href="../chapter_8/print.css">print.css</a></li>
-                        </ul>
-                    </li>
+                <li class="outer-menu-item">
+                    <span class="menu-title">Chapter 7</span>
+                    <ul class="inner-menu">
+                        <li><a href="../chapter_7/1floatWithOverflow1.html">1floatWithOverflow1</a></li>
+                        <li><a href="../chapter_7/2noteclear.html">2noteclear</a></li>
+                        <li><a href="../chapter_7/3marginWidth.html">3marginWidth</a></li>
+                        <li><a href="../chapter_7/4oneTrueLayout.html">4oneTrueLayout</a></li>
+                        <li><a href="../chapter_7/5note_flex.html">5note_flex</a></li>
+                        <li><a href="../chapter_7/6absolutePosition.html">6absolutePosition</a></li>
+                        <li><a href="../chapter_7/7absolutePosition_align.html">7absolutePosition_align</a></li>
+                        <li><a href="../chapter_7/8fixedBar.html">8fixedBar</a></li>
+                        <li><a href="../chapter_7/9ellipsis.html">9ellipsis</a></li>
+                    </ul>
+                </li>
 
-                </ul>
-            </div>
+                <li class="outer-menu-item">
+                    <span class="menu-title">Chapter 8</span>
+                    <ul class="inner-menu">
+                        <li><a href="../chapter_8/1without_meta.html">1without_meta</a></li>
+                        <li><a href="../chapter_8/2with_meta.html">2with_meta</a></li>
+                        <li><a href="../chapter_8/2_1note_meta.html">2_1note_meta</a></li>
+                        <li><a href="../chapter_8/3at_media_rule.html">3at_media_rule</a></li>
+                        <li><a href="../chapter_8/4media_attribute.html">4media_attribute</a></li>
+                        <li><a href="../chapter_8/7media_feature.html">7media_feature</a></li>
+                        <li><a href="../chapter_8/8orientation.html">8orientation</a></li>
+                        <li><a href="../chapter_8/9pattern1.html">9pattern1</a></li>
+                        <li><a href="../chapter_8/10pattern2.html">10pattern2</a></li>
+                        <li><a href="../chapter_8/11pattern3.html">11pattern3</a></li>
+                        <li><a href="../chapter_8/12pattern4.html">12pattern4</a></li>
+                        <li><a href="../chapter_8/screen.css">screen.css</a></li>
+                        <li><a href="../chapter_8/print.css">print.css</a></li>
+                    </ul>
+                </li>
+
+                <li class="outer-menu-item">
+                    <span class="menu-title">과제</span>
+                    <ul class="inner-menu">
+                        <li><a href="../chapter_5/blog.html">블로그 html</a></li>
+                        <li><a href="../chapter_8/blogcss.html">블로그 CSS</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
         </nav>
 
     </div>
-</body>
 
+</body>
 </html>
